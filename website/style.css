@@ -1,0 +1,22 @@
+.main-content {
+    padding: 1em;
+}
+
+.card {
+    margin: 10px;
+    max-width: 20rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    height: 100%;
+    background-image: url('/img/weatherBg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="/img/weatherBg.jpg">
+    <main class="main-content">
+        <h1 class="text-center">Weather Journal App</h1>
+        <!-- Input Section -->
+        <section class="container-fluid">
+            <form class=" form-input column d-flex flex-column align-items-center">
+                <!-- Zip Code -->
+                <div class="form-group col-4 ">
+                    <input class=" zipcode form-control form-control-lg" type="text" placeholder="Zip Code" id="inputLarge">
+                </div>
+                <!-- Journal -->
+                <div class="form-group col-4">
+                    <textarea class="journal-summary form-control" id="exampleTextarea" placeholder="How does the weather make you feel?" rows="3" spellcheck="false"></textarea>
+                </div>
+                <!-- Submit Button -->
+                <button type="Submit" class="generate btn btn-primary btn-lg btn-block col-4">Generate</button>
+            </form>
+        </section>
+
+        <!-- Output Section -->
+        <h2 class="text-center mt-5">Output</h2>
+
+        <section class="container-fluid">
+            <div class="outputSection row d-flex flex-row justify-content-center">
+                <!-- Entry cards -->
+
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
